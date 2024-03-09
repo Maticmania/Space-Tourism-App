@@ -164,6 +164,7 @@
     /* border: 1px solid red; */
     height: 50px;
     width: 80%;
+    z-index: 0;
     
 }
 .text{

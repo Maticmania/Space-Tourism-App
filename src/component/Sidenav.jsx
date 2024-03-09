@@ -42,28 +42,28 @@ const Sidebar = () => {
         {/* <div className="right-side-nav " style={{display: 'none'}}> */}
           <ul>
             <div className="nav active">
-              <Link to="/" style={{textDecoration: 'none'}}>
+              <Link to="/" style={{textDecoration: 'none'}} className='link'>
                 <li>
                   <span>00</span> Home
                 </li>
               </Link>
             </div>
             <div className="nav"  >
-                <Link to="/destination" style={{textDecoration: 'none'}}>
+                <Link to="/destination" style={{textDecoration: 'none'}}className='link'>
                 <li>
                 <span>01</span> Destination
               </li>
                 </Link>
             </div>
             <div className="nav" to="/crew">
-                <Link to='/crew' style={{textDecoration: 'none'}}>
+                <Link to='/crew' style={{textDecoration: 'none'}} className='link'>
               <li>
                 <span>02</span> Crew
               </li>
               </Link>
             </div>
             <div className="nav" to="/technology">
-            <Link to='/technology' style={{textDecoration: 'none'}}>
+            <Link to='/technology' style={{textDecoration: 'none'}} className='link'>
               <li>
                 <span>03</span> Technology
               </li>

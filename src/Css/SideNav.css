@@ -15,50 +15,78 @@
         justify-content: space-between;
         background: transparent;
         position: fixed;
-        
+        z-index: 1;
+        transition: 1s;
+
     }
     .left, .right{
         height: 60px;
-        width: 10%;
+        width: 15%;
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 1;
+    
     }
+    .right{
+        transition: 1s;
+    }
+        
     .right-side-nav{
         position: absolute;
-        top: 100%;
+        top: 0%;
         left: 50%;
+        transition: 1s;
         right: 0;
         display: flex;
         align-items: center;  
         flex-direction: column;
-        height: 90vh;
-        backdrop-filter: blur(60px);
-        z-index: 100;
+        justify-content: center;
+        height: 100vh;
+        backdrop-filter: blur(1rem);
+        z-index: 0;
     }
     
     .right-side-nav ul{
         display: flex;
         flex-direction: column;
-        height: 100%;
+        height: 60%;
+        width: 100%;
         list-style: none;
-        column-gap: 50px;
-        align-items: flex-start;
+        column-gap: 5px;
+        align-items: flex-end;
         justify-content: center;
+        /* border: 1px solid red; */
+        transition: 1s;
         
     }
     .right-side-nav ul .nav{
         /* position: relative; */
-        height: 100%;
+        height: 20%;
+        width: 70%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        transition: 1s;
+    }
+    /* .right-side-nav ul .nav :hover{
+        border-right: 5px solid white;
+    } */
+    .link{
+        transition: 0.3s;
+    }
+    .link:hover{
+        border-right: 10px solid white;
+        width: 100%;
     }
     .right-side-nav ul li{
         color: white;
         font-size: 20px;
         word-spacing: 10px;
         cursor: pointer;
+        transition: 1s;
+        width: 100%;
+
     }
     /* .right-side ul li::after{
         display: none;
@@ -82,21 +110,13 @@
     }
     
     .right-side-nav ul .active::after{
-        content: '';
         display: none;
-        /* position: absolute; */
-        width: 100%;
-        height: 0.275rem;
-        background-color: white;
-        left: 5px;
-        bottom: 0;
-        transform: scale(1,1);
-        transition: transform .4s ease;
     }
     
     .hamburger{
         display: flex;
         cursor: pointer;
+        transition: 1s;
     }
     
    
