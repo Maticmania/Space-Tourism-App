@@ -1,6 +1,6 @@
 .crew-bg{
     background: url(../assets/image/crew/background-crew-desktop.jpg);
-    height: 100%;
+    height: 100vh;
 }
 .crew{
     width: 100%;
@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
 }
 .main{
     width: 80%;
@@ -99,7 +99,7 @@
 @media (min-width: 200px) and (max-width: 767px) {
     .crew-bg{
         background: url(../assets/image/crew/background-crew-mobile.jpg);
-        height: 100%;
+        height: 100vh;
     }
     .crew{
         width: 100%;
