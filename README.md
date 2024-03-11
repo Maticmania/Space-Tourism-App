@@ -1,14 +1,22 @@
-### My Space Tourism App 
+### My Space Tourism App
 
 ### How to use
-- clone the repository
+-clone the repository
 
 ```
-git clone https://github.com/maticmania/Space-Tourism-App
+git clone https://github.com/Gabr-iel007/SPACE-TOURISM-APP007.git
+```
 
-git remote show origin
+- navigate to space-tourism directory
+ ```
+ cd space-tourism
+```
 
-git remote remove origin
-
-
+- install all dependencies
+ ```
+ npm install 
+ ```
+- run dev server
+```
+ npm run dev
 ```
